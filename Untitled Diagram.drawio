@@ -1,9 +1,101 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.14">
   <diagram name="Page-1" id="_scrDCLFMf18BnppIwt2">
-    <mxGraphModel>
+    <mxGraphModel dx="996" dy="379" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="RhtVKejMCk1-w2qNsue9-1" value="mergeAll" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RhtVKejMCk1-w2qNsue9-2" value="mergeWithKey" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RhtVKejMCk1-w2qNsue9-3" value="mergeWith" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RhtVKejMCk1-w2qNsue9-4" value="mergeRight" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RhtVKejMCk1-w2qNsue9-5" value="mergeLeft" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RhtVKejMCk1-w2qNsue9-6" value="mergeDeepWithKey" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RhtVKejMCk1-w2qNsue9-7" value="mergeDeepWith" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RhtVKejMCk1-w2qNsue9-8" value="mergeDeepRight" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RhtVKejMCk1-w2qNsue9-9" value="mergeDeepLeft" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RhtVKejMCk1-w2qNsue9-10" value="fn(key, lv, rv)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="27.5" y="180" width="92.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RhtVKejMCk1-w2qNsue9-11" value="fn: lấy phải" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="30" y="90" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RhtVKejMCk1-w2qNsue9-12" value="fn: lấy trái" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="140" y="90" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RhtVKejMCk1-w2qNsue9-14" value="fn(lv, rv)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="270" y="90" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RhtVKejMCk1-w2qNsue9-15" value="fn(key, lv, rv&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="440" y="180" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RhtVKejMCk1-w2qNsue9-16" value="1) key khác nhau&lt;div&gt;2) key giống nhau&lt;/div&gt;&lt;div&gt;2.1) 2 value cùng là obj -&amp;gt; recursive merged&amp;nbsp;&lt;br&gt;2.2) 2 value không cùng là obj -&amp;gt; phụ thuộc fn&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="30" y="220" width="270" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="RhtVKejMCk1-w2qNsue9-17" value="1) key khác nhau&lt;div&gt;2) key giống nhau&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;-&amp;gt; phụ thuộc fn&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="440" y="210" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RhtVKejMCk1-w2qNsue9-18" value="fn(lv, rv&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="440" y="90" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RhtVKejMCk1-w2qNsue9-19" value="&lt;span style=&quot;&quot;&gt;1) key khác nhau&lt;/span&gt;&lt;div style=&quot;&quot;&gt;2) key giống nhau&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;-&amp;gt; l&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;ấy ph&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;ải&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="640" y="90" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RhtVKejMCk1-w2qNsue9-20" value="&lt;span style=&quot;&quot;&gt;1) key khác nhau&lt;/span&gt;&lt;div style=&quot;&quot;&gt;2) key giống nhau&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;-&amp;gt; l&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;ấy tr&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;ái&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="640" y="200" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RhtVKejMCk1-w2qNsue9-21" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RhtVKejMCk1-w2qNsue9-8" target="RhtVKejMCk1-w2qNsue9-6">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="200" y="160" as="sourcePoint" />
+            <mxPoint x="300" y="160" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RhtVKejMCk1-w2qNsue9-23" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RhtVKejMCk1-w2qNsue9-9" target="RhtVKejMCk1-w2qNsue9-6">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="190" y="150" as="sourcePoint" />
+            <mxPoint x="290" y="150" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RhtVKejMCk1-w2qNsue9-24" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;exitX=0.769;exitY=-0.006;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="RhtVKejMCk1-w2qNsue9-14">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="200" y="200" as="sourcePoint" />
+            <mxPoint x="100" y="120" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RhtVKejMCk1-w2qNsue9-25" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RhtVKejMCk1-w2qNsue9-6" target="RhtVKejMCk1-w2qNsue9-2">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="170" y="170" as="sourcePoint" />
+            <mxPoint x="270" y="170" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RhtVKejMCk1-w2qNsue9-26" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RhtVKejMCk1-w2qNsue9-3" target="RhtVKejMCk1-w2qNsue9-2">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="310" y="190" as="sourcePoint" />
+            <mxPoint x="410" y="190" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
