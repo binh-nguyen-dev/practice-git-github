@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.3" pages="7">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.3" pages="8">
   <diagram name="ReactDOM.createRoot(main#root).render(&lt;App /&gt;)" id="jG9bOFiAjcmtgisxvAR7">
     <mxGraphModel dx="996" dy="379" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2058,6 +2058,17 @@
         </mxCell>
         <mxCell id="GmKlOq4SRGDkOnID4dPe-16" value="&quot; - odd&quot;" style="whiteSpace=wrap;html=1;" parent="5HDkduPRf7LxOkC8Mm9n-1" vertex="1">
           <mxGeometry x="1080.5" y="2720" width="80" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="NWFM9yaDkkbDq_d_WlAj" name="Page-8">
+    <mxGraphModel dx="996" dy="379" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9rt3FYvwu88IOcxiQZN0-1" value="App()&lt;div&gt;useState(1&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;useEffect(callback1, deps1)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;useEffect(callback2, deps2)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;createElement&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;Child()&lt;/div&gt;&lt;div&gt;useEffect(callback3, deps3)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;callback3()&lt;/div&gt;&lt;div&gt;callback1()&lt;/div&gt;&lt;div&gt;callback(2)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;App()&lt;/div&gt;&lt;div&gt;useState(1)&lt;/div&gt;&lt;div&gt;useEffect(callback1)&lt;/div&gt;&lt;div&gt;useEffect(callback2)&lt;/div&gt;&lt;div&gt;createElement&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Child()&lt;/div&gt;&lt;div&gt;useEffect(callback3)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;destroy3()&lt;/div&gt;&lt;div&gt;destroy1()&lt;/div&gt;&lt;div&gt;callback3()&lt;/div&gt;&lt;div&gt;callback 1()&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="360" height="400" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
